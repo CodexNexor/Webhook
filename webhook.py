@@ -24,7 +24,7 @@ import requests
 # CONFIGURE: replace here only
 # -----------------------------
 # Public image URL (will be sent by the bot as photo on /start)
-PUBLIC_IMAGE_URL = "https://ik.imagekit.io/mhbes43vr/token.jpg?updatedAt=1764593921076"
+PUBLIC_IMAGE_URL = "static/token.jpg"
 
 # Message to send as caption (or text if photo sending fails)
 MESSAGE_TEXT = """𝗠𝗲𝗴𝗮 / 𝗗𝗶𝗿𝗲𝗰𝘁 𝗟𝗶𝗻𝗸 / 𝗦𝘁𝗿𝗲𝗮𝗺 𝗙𝘂𝗹𝗹 𝗛𝗗 𝗣𝗢*𝗡
@@ -214,3 +214,4 @@ def run_server(port=8080):
 if __name__ == "__main__":
     port = int(os.environ.get("PORT", 8080))
     run_server(port)
+
